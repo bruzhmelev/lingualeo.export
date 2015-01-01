@@ -1,0 +1,46 @@
+{
+    "context_menu_item": {
+        "caption": null
+    }, 
+    "content_scripts": [
+        "lingualeo/js/config.js", 
+        "lingualeo/js/content_utils.js", 
+        "lingualeo/js/content.js", 
+        "lingualeo/js/content_notification.js", 
+        "lingualeo/js/content_dialogs.js"
+    ], 
+    "kango_package_id": "2178", 
+    "name": "LinguaLeo", 
+    "short_name": "LinguaLeo Translator", 
+    "creator": "LinguaLeo", 
+    "settings": {
+        "port": 1001
+    }, 
+    "background_scripts": [
+        "lingualeo/js/server.js", 
+        "lingualeo/js/config.js", 
+        "lingualeo/js/ext.js", 
+        "lingualeo/js/options.js", 
+        "lingualeo/js/contextmenu.js", 
+        "lingualeo/js/lingualeo_init.js"
+    ], 
+    "homepage_url": "http://lingualeo.com/", 
+    "version": "1.0.7.2", 
+    "options_page": "options.html", 
+    "default_locale": "en", 
+    "kango_version": "1.3.1 ba4b80d08b67", 
+    "browser_button": {
+        "caption": "LinguaLeo", 
+        "tooltipText": "LinguaLeo", 
+        "icon": "icons/button.png"
+    }, 
+    "id": "{0E243E70-1FC3-4894-B5BE-E7A557ED595B}", 
+    "locales": [
+        "en", 
+        "pt", 
+        "pt_br", 
+        "ru", 
+        "tr"
+    ], 
+    "description": "A leading language learning platform that makes learning fun - LinguaLeo.com"
+}
